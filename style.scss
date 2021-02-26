@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'RocknRoll One', sans-serif;
+    background-color: #8EC5FC;
+    background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    display: flex;
+    max-width: 1000px;
+    border: 1px solid red;
+}
+
+p {
+    align-self: center
+}
